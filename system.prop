@@ -1,0 +1,10 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=manufacture,adb,mtp
+ro.sys.usb.storage.type=mtp,adb
+sys.usb.configfs=1
+sys.usb.controller=ff100000.dwc3
